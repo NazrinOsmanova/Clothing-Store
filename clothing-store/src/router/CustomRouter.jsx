@@ -27,7 +27,7 @@ const CustomRouter = [
     // },
     {
         path: '/fav',
-        element: <Fav/>
+        element: <Fav />
     },
     {
         path: '/readmore/:id',

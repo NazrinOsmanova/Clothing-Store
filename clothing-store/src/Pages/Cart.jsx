@@ -99,20 +99,6 @@ const Cart = ({ cartItems }) => {
                                 </tr>
                             ))
                         }
-                        {/* <tr key='123545'>
-                            <td><img src='https://images.asos-media.com/products/asos-design-textured-bubble-hem-mini-dress-with-tie-straps-in-baby-pink/206693349-1-lightpink?$n_750w$&wid=750&fit=constrain' alt="image1" /></td>
-                            <td>Product Name</td>
-                            <td>15</td>
-                            <td>
-                                <div className="quantity-container">
-                                    <button className="quantity-button"><AiOutlineMinus /></button>
-                                    <p>5</p>
-                                    <button className="quantity-button"><AiOutlinePlus /></button>
-                                </div>
-                            </td>
-                            <td>2024</td>
-                            <td><button><RiDeleteBin5Line /></button></td>
-                        </tr> */}
                     </tbody>
                 </table>
             </section>
@@ -121,57 +107,3 @@ const Cart = ({ cartItems }) => {
 }
 
 export default Cart;
-
-
-
-
-{/* <td><FiDelete /></td> */ }
-
-
-
-
-
-
-
-
-// .then(data => {
-//     cartItems.forEach(itemId => {
-//         const item = data.find(f => f.id === itemId);
-//         if (item) {
-//             setData(prevData => [...prevData, item]);
-//         }
-//     });
-// })
-
-
-
-
-
-{/* <tr key='1203466666666'>
-<td><img src='https://slimages.macysassets.com/is/image/MCY/products/9/optimized/27023779_fpx.tif?op_sharpen=1&wid=700&hei=855&fit=fit,1&fmt=webp' alt="image1" /></td>
-<td>Product Name</td>
-<td>Products Price</td>
-<td>
-    <div className="quantity-container">
-        <button className="quantity-button"  ><CiCircleMinus /></button>
-        <span>1</span>
-        <button className="quantity-button"><CiCirclePlus /></button>
-    </div>
-</td>
-<td>2024</td>
-<td><button><FiDelete /></button></td>
-</tr>
-<tr key='12034666666'>
-<td><img src='https://slimages.macysassets.com/is/image/MCY/products/9/optimized/27023779_fpx.tif?op_sharpen=1&wid=700&hei=855&fit=fit,1&fmt=webp' alt="image1" /></td>
-<td>Product Name</td>
-<td>Products Price</td>
-<td>
-    <div className="quantity-container">
-        <button className="quantity-button" ><CiCircleMinus /></button>
-        <span>1</span>
-        <button className="quantity-button" ><CiCirclePlus /></button>
-    </div>
-</td>
-<td>2024</td>
-<td><button><FiDelete /></button></td>
-</tr> */}

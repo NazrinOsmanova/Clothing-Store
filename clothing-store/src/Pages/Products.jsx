@@ -4,8 +4,8 @@ import { NavLink, useLocation } from "react-router-dom"
 import { HiOutlineChevronDown } from "react-icons/hi";
 import { FaStar, FaHeart } from "react-icons/fa";
 
-const Products = ({cartItems, addToCart}) => {
-  
+const Products = ({ cartItems, addToCart }) => {
+
     const [data, setData] = useState([]);
     const [selectedBrands, setSelectedBrands] = useState([]);
     const [filteredProducts, setFilteredProducts] = useState([]);
@@ -314,8 +314,3 @@ const Products = ({cartItems, addToCart}) => {
 }
 
 export default Products
-
-// import { HiOutlineChevronUp } from "react-icons/hi";
-{/* <HiOutlineChevronUp /> */ }
-// aciq olanda yuxaridaki lazimdi (ya da css-de transform ele)
-

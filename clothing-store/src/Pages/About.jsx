@@ -116,5 +116,3 @@ const About = () => {
 }
 
 export default About
-
-// https://www.besttailor.net/wp-content/uploads/2021/06/home-02.jpg

@@ -7,6 +7,7 @@ import { RiArrowGoBackFill } from "react-icons/ri";
 const ReadMore = () => {
   const { id } = useParams();
   const [details, setDetails] = useState([]);
+  const [selectedImageIndex, setSelectedImageIndex] = useState(0);
 
   useEffect(() => {
     fetch(`https://662a6ef167df268010a3e9dd.mockapi.io/api/v1/products/${id}`)
@@ -23,8 +24,6 @@ const ReadMore = () => {
         console.error('There was a problem with the fetch operation:', error);
       });
   }, []);
-
-  const [selectedImageIndex, setSelectedImageIndex] = useState(0);
 
   const handleImageClick = (event, index) => {
     setSelectedImageIndex(index);
