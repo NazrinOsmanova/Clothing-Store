@@ -19,7 +19,6 @@ function App() {
 
   return (
     <>
-    <p>Test</p>
       <Nav />
       <LandingPageLayout>
         <Routes>
