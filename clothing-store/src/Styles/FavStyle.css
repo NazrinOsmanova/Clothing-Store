@@ -1,0 +1,85 @@
+/* .section1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.section1 h3 {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.section1 p {
+    font-size: 20px;
+}
+
+.section1 a {
+    font-size: 20px;
+}
+
+.section1 div:last-child {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 14%;
+    font-size: 21px;
+}
+
+.section2 table {
+    border-collapse: collapse;
+    width: 85%;
+    margin: 20px auto;
+    text-align: center;
+    border: none;
+}
+
+.section2 table tr th:first-child,
+.section2 table tr td:first-child {
+    text-align: left;
+}
+
+.section2 table th,
+.section2 table tr {
+    border-bottom: 1px solid gray;
+    padding-bottom: 10px;
+}
+
+.section2 table th {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.section2 table tr td {
+    font-size: 21px;
+}
+
+.section2 table tr td:last-child {
+    cursor: pointer;
+    font-size: 25px;
+}
+
+.section2 table img {
+    width: 100px;
+    height: 100px;
+    margin: 10px auto;
+    object-fit: cover;
+    object-position: right center;
+    border-radius: 0.4cm;
+}
+
+.section2 table td:nth-child(4)>* {
+    margin: 10px;
+}
+
+.section2 table .quantity-container {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.section2 table .quantity-button {
+    cursor: pointer;
+    margin: 0 10px;
+} */

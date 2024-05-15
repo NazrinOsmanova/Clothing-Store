@@ -1,0 +1,152 @@
+main {
+    display: flex;
+    justify-content: space-between;
+}
+
+aside {
+    width: 20%;
+}
+
+aside form>div {
+    margin-bottom: 10px;
+}
+
+aside form>div .up {
+    display: flex;
+    align-items: center;
+    font-size: 21px;
+    border-bottom: 2px solid gainsboro;
+}
+
+aside form>div .up svg {
+    cursor: pointer;
+}
+
+aside form>div .down label {
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+input[type=checkbox] {
+    font-size: 50px;
+    transform: scale(1.4);
+    margin-left: 10px;
+    accent-color: #035c2a;
+}
+
+aside form>div .up p {
+    margin-right: 10px;
+}
+
+aside form>div:last-child .down {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+aside form>div:last-child .down .item {
+    width: 40px;
+    height: 40px;
+    margin: 0px 10px 10px 0px;
+    border-radius: 0.3cm;
+}
+
+.section3 {
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.section3>div {
+    margin-bottom: 15px;
+    width: 24%;
+    border: 2px solid #cae1d4;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+.section3>div:hover {
+    box-shadow: 0px 0px 3px 0.3px #035b29;
+    transition: 0.3s;
+}
+
+.section3>div a {
+    color: rgb(70, 69, 69);
+}
+
+.section3>div a .up {
+    text-align: center;
+    position: relative;
+}
+
+.section3>div a .up>div svg {
+    color: rgb(234, 228, 228);
+    stroke: #201f1f;
+    stroke-width: 6px;
+}
+
+.section3>div a .up>div {
+    background-color: rgb(228, 219, 219);
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    font-size: 22px;
+}
+
+.section3>div a .up img {
+    width: 100%;
+}
+
+.section3>div a .down>div:nth-child(2) {
+    display: flex;
+    margin: 7px 0px;
+}
+
+.section3>div a .down>div:nth-child(2) span {
+    margin-left: 10px;
+}
+
+.section3>div a .down>div:nth-child(2) p:last-child {
+    display: flex;
+    align-items: center;
+}
+
+.section3>div a .down>div:nth-child(2) p:last-child svg {
+    margin-left: 5px;
+    font-size: 18px;
+    color: rgb(237, 237, 50);
+    fill: none;
+    stroke-width: 60;
+    stroke: rgb(237, 237, 50);
+}
+
+.section3>div button {
+    width: 100%;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid #035b29;
+    transition: 0.3s;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.section3>div button:hover {
+    color: white;
+    background-color: #035c2a;
+    transition: 0.3s;
+}
+
+/*
+   #035b29
+   #035c2a
+   color: rgb(69, 68, 68);
+*/

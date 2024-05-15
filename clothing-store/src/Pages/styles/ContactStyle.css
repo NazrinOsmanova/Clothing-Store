@@ -1,0 +1,137 @@
+.section10 {
+    background-image: url(https://victoria.mediaplanet.com/app/uploads/sites/151/2021/08/ethical-fashion-green-wardrobe.jpg);
+    /* background-image: url(https://static.wixstatic.com/media/ad420a_8dd6c10bf55547e78d0d9ba1e5bb5256~mv2_d_5184_3497_s_4_2.jpg/v1/fill/w_1408,h_758,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/ad420a_8dd6c10bf55547e78d0d9ba1e5bb5256~mv2_d_5184_3497_s_4_2.jpg); */
+    height: 60vh;
+    background-position: 70% 26%;
+    background-size: cover;
+}
+
+.section10 div {
+    background-color: rgba(82, 88, 135, 0.6);
+    height: 60vh;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px 0px;
+}
+
+.section10 div p:first-child {
+    border-bottom: 1px solid white;
+    padding: 10px;
+}
+
+.section10 div p:last-child {
+    font-size: 30px;
+    width: 70%;
+}
+
+.section11 {
+    margin: 50px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section11 .left {
+    width: 45%;
+}
+
+.section11 .left .up {
+    margin-bottom: 50px;
+}
+
+.section11 .left .up p:first-child {
+    font-size: 30px;
+}
+
+.section11 .left .up p {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.section11 .left .down>div {
+    padding: 10px 0px;
+    border-bottom: 1px solid rgb(172, 170, 170);
+    margin-bottom: 25px;
+    display: flex;
+}
+
+.section11 .left .down>div a {
+    color: black;
+}
+
+.section11 .left .myDiv1 {
+    display: flex;
+    align-items: center;
+    width: 25%;
+}
+
+.section11 .left .myDiv1 svg {
+    margin-right: 20px;
+}
+
+.section11 .left .myDiv2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section11 .left .hours {
+    width: 40%;
+}
+
+.section11 .left .phone {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section11 .right {
+    padding: 25px;
+    border-radius: 0.8cm;
+    background-color: rgb(247, 247, 246);
+    width: 40%;
+}
+
+.section11 .right form div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.section11 .right form div input {
+    padding: 10px;
+    margin: 10px 0px;
+    border: none;
+    border-bottom: 1px solid rgb(143, 141, 141);
+}
+
+.section11 .right form div input,
+.section11 .right form div input::placeholder {
+    font: 17px sans-serif;
+}
+
+.section11 .right form button {
+    padding: 10px 40px;
+    font-size: 15px;
+    background-color: white;
+    border: 1px solid #035b29;
+    transition: 0.3s;
+    cursor: pointer;
+    width: 100%;
+}
+
+.section11 .right form button:hover {
+    color: white;
+    background-color: #035c2a;
+    transition: 0.3s;
+}
+
+.section11 .right form textarea {
+    padding: 10px;
+    margin: 10px 0px;
+    resize: none;
+    font-size: 15px;
+}

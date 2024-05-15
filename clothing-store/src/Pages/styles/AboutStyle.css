@@ -1,0 +1,188 @@
+.section12 {
+    background-image: url(https://assets.website-files.com/5c69c74046b3672563f48964/5ce7ddd24a11c324dcfae652_2.jpg);
+    /* background-image: url(https://i0.wp.com/www.nogorpolli.com/wp-content/uploads/2018/12/list-of-top-15-fashion-or-clothing-brands-house-in-bangladesh-nogorpolli-%E0%A6%A8%E0%A6%97%E0%A6%B0-%E0%A6%AA%E0%A6%B2%E0%A7%8D%E0%A6%B2%E0%A7%80-nogor-polli-apparel-clothing-fashion-store.png?fit=1200%2C630&ssl=1); */
+    height: 60vh;
+    background-position: 0% 63%;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 40px;
+}
+
+.section12 div {
+    width: 50%;
+    text-align: right;
+    font-size: 50px;
+    color: white;
+    line-height: 100px;
+    font-weight: 100;
+}
+
+.section13 {
+    margin: 30px 0px;
+}
+
+.section13>p {
+    text-align: center;
+    font-size: 40px;
+    margin: 40px;
+}
+
+.section13>div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section13>div div {
+    width: 20%;
+    font-size: 26px;
+    border: 1px solid #035c2a;
+    padding: 10px;
+    transition: 0.3s;
+    box-shadow: -11px -11px 10px 10px gainsboro;
+    cursor: pointer;
+}
+
+.section13>div div:hover {
+    box-shadow: none;
+    transition: 0.3s;
+}
+
+.section14>p {
+    text-align: center;
+    font-size: 40px;
+    margin: 40px;
+}
+
+.section14 .divs>div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section14 .up .myDiv1 {
+    width: 41%;
+    padding: 10px;
+}
+
+.section14 .up .items {
+    width: 59%;
+    display: flex;
+}
+
+.section14 .up .items>div {
+    background-color: rgba(91, 216, 95, 0.1);
+    width: 33.3%;
+    padding: 10px;
+}
+
+.section14 .up .items>div:nth-child(2) {
+    background-color: white;
+}
+
+.section14 .down .items {
+    display: flex;
+    width: 50%;
+}
+
+.section14 .down .items>div {
+    width: 50%;
+    padding: 10px;
+}
+
+.section14 .down .items>div:first-child {
+    background-color: rgba(91, 216, 95, 0.1);
+}
+
+.section14 .down .myDiv1 {
+    padding: 10px;
+    background-color: rgba(91, 216, 95, 0.1);
+    width: 50%;
+}
+
+.section14 span {
+    font-size: 25px;
+}
+
+.section14 p {
+    margin-top: 10px;
+}
+
+.section14 .items>div:hover {
+    background-color: rgba(91, 216, 95, 0.3) !important;
+    transition: 0.1s;
+}
+
+.section15 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 0px;
+}
+
+.section15 span {
+    font-size: 40px;
+}
+
+.section15 img {
+    width: 40%;
+}
+
+.section15 div {
+    width: 55%;
+    font-size: 20px;
+}
+
+.section15 div p {
+    margin: 15px 0px;
+}
+
+.section16 {
+    overflow: hidden;
+    white-space: nowrap;
+    padding: 40px 0px;
+    background-color: rgba(91, 216, 95, 0.05);
+    position: relative;
+    margin: 50px 0px;
+}
+
+.section16 .logos-slide {
+    display: inline-block;
+    animation: 35s slide infinite linear;
+}
+
+.section16 .logos-slide img {
+    height: 70px;
+    margin: 0px 40px;
+}
+
+.section16::after,
+.section16::before {
+    position: absolute;
+    top: 0;
+    width: 150px;
+    height: 100%;
+    content: '';
+    z-index: 2;
+}
+
+.section16::before {
+    left: 0;
+    background: linear-gradient(to left, rgba(255, 255, 255, 0), whitesmoke);
+}
+
+
+.section16::after {
+    right: 0;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0), whitesmoke);
+}
+
+@keyframes slide {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}

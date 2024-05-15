@@ -1,0 +1,41 @@
+.section8 {
+    border: 1px solid #06853d;
+    padding: 30px;
+}
+
+.section8 .up {
+    text-align: center;
+}
+
+.section8 .up p {
+    font-size: 20px;
+}
+
+.section8 .up h4 {
+    font-weight: 300;
+    font-size: 35px;
+    margin: 10px;
+}
+
+.section8 .down {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.section8 .down>div {
+    width: 23%;
+}
+
+.section8 .down>div svg {
+    font-size: 50px;
+    background-color: #e7eeea;
+    padding: 10px;
+    color: #06853d;
+}
+
+.section8 .down>div h6 {
+    color: #025b29;
+    font-size: 20px;
+    margin: 10px 0px;
+}

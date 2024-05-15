@@ -1,0 +1,48 @@
+.section18 {
+    position: relative;
+}
+
+.section18 .items .item {
+    width: 78%;
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 0px;
+    border: 2px solid rgb(12, 163, 7);
+    padding: 20px 0px;
+}
+
+.section18 .items .item:first-child {
+    border-right: none;
+}
+
+.section18 .items .item:last-child {
+    border-left: none;
+}
+
+.section18 .items .item:first-child {
+    margin-left: auto;
+}
+
+.section18 img {
+    width: 170px;
+    border-radius: 100%;
+    height: 170px;
+}
+
+.section18 h4:first-child {
+    top: 40px;
+}
+
+.section18 h4 {
+    position: absolute;
+    font-weight: 100;
+    font-size: 30px;
+    width: 20%;
+}
+
+
+.section18 h4:last-child {
+    right: 0;
+    bottom: 50px;
+    text-align: right;
+}

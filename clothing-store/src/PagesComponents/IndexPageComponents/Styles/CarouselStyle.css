@@ -1,0 +1,71 @@
+header {
+    position: relative;
+}
+
+header .carousel {
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+    height: 87vh;
+}
+
+header .carousel .slides {
+    display: flex;
+}
+
+header .carousel .slides .slide {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex: 0 0 auto;
+}
+
+header .carousel .slides .slide.active {
+    display: flex;
+}
+
+header .carousel button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 15px;
+    font-size: 30px;
+    z-index: 1;
+}
+
+header .carousel .prev {
+    left: 0;
+}
+
+header .carousel .next {
+    right: 0;
+}
+
+header .dots {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    position: absolute;
+    bottom: 20px;
+    background-color: rgba(233, 62, 10, 0.3);
+    padding: 20px 30px;
+    left: 46%;
+}
+
+header .dot {
+    width: 10px;
+    height: 10px;
+    background-color: #ccc;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+header .dot.active {
+    background-color: #333;
+}

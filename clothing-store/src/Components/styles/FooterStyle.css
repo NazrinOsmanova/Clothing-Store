@@ -1,0 +1,97 @@
+footer {
+    background-color: #e7eeea;
+    padding: 50px;
+}
+
+footer .section5 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 0px 0px 30px 0px;
+}
+
+footer .section5 .left {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+footer .section5 .left ul li {
+    margin: 18px 0px;
+    font-size: 22px;
+}
+
+footer .section5 .right {
+    width: 75%;
+}
+
+footer .section5 .right .up {
+    display: flex;
+    align-items: flex-end;
+    font-size: 50px;
+    margin: 30px 0px;
+}
+
+footer .section5 .right .up a {
+    font-weight: 300;
+    color: black !important;
+}
+
+footer .section5 .right .up div {
+    width: 75%;
+    height: 1px;
+    background-color: rgb(98, 96, 96);
+    margin: 12px;
+}
+
+footer .section5 .right .down {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .section5 .right .down>div {
+    width: 23%;
+}
+
+footer .section5 .right .down>div ul li {
+    margin: 10px 0px;
+}
+
+footer .section5 .right .down>div:last-child input {
+    padding: 10px;
+    margin: 20px 0px;
+    border: 1px solid black;
+}
+
+footer .section5 .right .down>div:last-child input::placeholder {
+    color: rgb(69, 68, 68);
+}
+
+footer .section5 .right .down>div:last-child button {
+    padding: 10px 40px;
+    font-size: 15px;
+    background-color: white;
+    border: 1px solid #035b29;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+footer .section5 .right .down>div:last-child button:hover {
+    color: white;
+    background-color: #035c2a;
+    transition: 0.3s;
+}
+
+footer .section6 {
+    text-align: center;
+    padding: 40px;
+    margin-top: 30px;
+    background-color: white;
+    font-size: 14px;
+}
+
+footer .section6 a:hover {
+    text-decoration: underline;
+}
