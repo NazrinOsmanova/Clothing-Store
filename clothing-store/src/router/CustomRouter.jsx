@@ -10,6 +10,10 @@ import Fav from "../Pages/Fav";
 
 const CustomRouter = [
     {
+        path: '/',
+        element: <Index />
+    },
+    {
         path: '/clothing-store',
         element: <Index />
     },
